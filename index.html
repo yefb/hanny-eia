@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanny - Futura Médica EIA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <div class="profile-section">
+            <div class="avatar-container">
+                <img src="futura_medica.png" alt="Hanny" class="avatar">
+            </div>
+            <h1 class="title">Hanny</h1>
+            <p class="subtitle">Médica en proceso, por favor espere...</p>
+        </div>
+
+        <div class="progress-section">
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <p class="progress-text"><span id="progress-percent">0.00</span>% completado</p>
+        </div>
+
+        <div class="countdown-section">
+            <p class="countdown-label">Hanny será médica en:</p>
+            <div class="countdown" id="countdown">
+                <div class="time-unit">
+                    <span class="time-value" id="years">0</span>
+                    <span class="time-label">años</span>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="months">0</span>
+                    <span class="time-label">meses</span>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="days">0</span>
+                    <span class="time-label">días</span>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="hours">0</span>
+                    <span class="time-label">horas</span>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="minutes">0</span>
+                    <span class="time-label">min</span>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="seconds">0</span>
+                    <span class="time-label">seg</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="university-badge">
+            <div class="badge-icon">🏥</div>
+            <div class="badge-text">
+                <span class="university-name">Universidad EIA</span>
+                <span class="program">Medicina - Antioquia</span>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Inicio: 19 de enero de 2026 • Graduación: 1 de julio de 2032</p>
+            <p class="footer-note">12 semestres de excelencia médica</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

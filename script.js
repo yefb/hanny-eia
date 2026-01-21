@@ -1,5 +1,5 @@
 const START_DATE = new Date('2026-01-19T00:00:00');
-const GRADUATION_DATE = new Date('2032-07-01T00:00:00');
+const GRADUATION_DATE = new Date('2026-07-21T00:00:00');
 const TOTAL_DURATION = GRADUATION_DATE - START_DATE;
 
 function calculateProgress() {
